@@ -1,11 +1,11 @@
-# knitsnap
+# knitsnap-web
 
 KnitSnap iOS 앱의 공식 웹사이트입니다.
 
-- 홈: <https://jstitchlab.github.io/knitsnap/>
-- 사용법: <https://jstitchlab.github.io/knitsnap/guide.html>
-- 공지사항: <https://jstitchlab.github.io/knitsnap/notice.html>
-- 개인정보처리방침: <https://jstitchlab.github.io/knitsnap/privacy.html>
+- 홈: <https://jstitchlabdev.github.io/knitsnap-web/>
+- 사용법: <https://jstitchlabdev.github.io/knitsnap-web/guide.html>
+- 공지사항: <https://jstitchlabdev.github.io/knitsnap-web/notice.html>
+- 개인정보처리방침: <https://jstitchlabdev.github.io/knitsnap-web/privacy.html>
 
 ## 배포
 
