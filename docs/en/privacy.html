@@ -28,12 +28,12 @@
 
     <main>
       <h1>Privacy Policy</h1>
-      <p class="meta">Last updated: April 17, 2026</p>
+      <p class="meta">Last updated: May 3, 2026</p>
 
       <p>KnitSnap (the "App") respects your privacy. This Privacy Policy explains what information the App processes and how.</p>
 
       <h2>1. Information We Collect</h2>
-      <p><strong>The App does not collect any personal information.</strong> It does not require account registration or login, and does not request or collect personally identifiable information such as names, email addresses, phone numbers, or location data.</p>
+      <p><strong>The App itself does not directly collect any personal information.</strong> It does not require account registration or login, and does not request or collect personally identifiable information such as names, email addresses, phone numbers, or location data. However, third-party SDKs used for advertising and in-app purchases may process certain identifiers — see §4 for details.</p>
 
       <h2>2. On-Device Data Storage</h2>
       <p>All data generated in the App is stored exclusively on your device and is not transmitted to any external server or third party.</p>
@@ -51,8 +51,25 @@
       </ul>
       <p>You can change permission settings at any time in iOS Settings &gt; KnitSnap.</p>
 
-      <h2>4. Sharing with Third Parties</h2>
-      <p>The App does not share or sell any information with third parties and does not transmit data to any external server. It does not include any analytics SDKs, advertising SDKs, or crash reporting third-party libraries.</p>
+      <h2>4. Third-Party Libraries and External Transmission</h2>
+      <p>The App does not transmit any project data you enter to external servers and does not share or sell such data with third parties. It does not include any analytics or crash-reporting SDKs. However, the App uses the following third-party SDKs to display advertising and process in-app purchases.</p>
+
+      <h3>4-1. Advertising (Google AdMob)</h3>
+      <ul>
+        <li>Banner advertisements are displayed at the bottom of the home and project detail screens.</li>
+        <li>Ads are served via Google's Google Mobile Ads SDK. To measure impressions and clicks, certain device identifiers — including the Identifier for Advertisers (IDFA) — may be transmitted to Google.</li>
+        <li>On iOS 14.5 and later, the App presents the App Tracking Transparency (ATT) prompt before showing the first ad. If you decline, the IDFA is not transmitted and ads are served in a non-personalized form. You can change your choice at any time in iOS Settings &gt; KnitSnap &gt; "Allow Tracking".</li>
+        <li>For Google's data handling, see the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a>.</li>
+        <li>Users who purchase the "Remove Ads" in-app purchase will not see any ads, and the advertising SDK will not be called.</li>
+      </ul>
+
+      <h3>4-2. In-App Purchases (Apple App Store)</h3>
+      <ul>
+        <li>The "Remove Ads" feature is a Non-Consumable in-app purchase (IAP) available once via the Apple App Store.</li>
+        <li>Payment processing is handled entirely by the Apple App Store and StoreKit. The App does not collect or store payment information such as credit card numbers or billing addresses.</li>
+        <li>The App only verifies Apple-issued transaction identifiers to determine purchase status. All other payment-related personal information is handled by Apple.</li>
+        <li>For Apple's data handling, see the <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple Privacy Policy</a>.</li>
+      </ul>
 
       <h2>5. Data Deletion</h2>
       <p>You can delete your data at any time by the following means:</p>
